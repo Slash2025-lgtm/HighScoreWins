@@ -16,6 +16,8 @@ public class Main {
 
         if (HomeTeamScore > AwayTeamScore) {
             System.out.println(SplitUp[0] + " Has won");
+        } else if (HomeTeamScore == AwayTeamScore) {
+            System.out.println("Tie Game");
         } else {
             System.out.println(SplitUp[1] + " Has won");
         }
